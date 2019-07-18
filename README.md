@@ -1,4 +1,4 @@
-# JUST DO IT!
+# JUST RUN IT!
 
 运行环境：Python 3.x
 
