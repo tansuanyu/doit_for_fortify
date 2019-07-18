@@ -1,5 +1,7 @@
 # JUST DO IT!
 
+运行环境：Python 3.x
+
 ## 目前功能
 将fortify生成的xml文件进行整理，输出每个漏洞的数量，名称，路径。
 
