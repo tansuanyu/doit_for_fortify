@@ -31,8 +31,8 @@ def basics(file,filename,utilState):
 					theFilePath = theSort(theFilePath)
 				if utilState[1] == 1:
 					theFilePath = theOnly(theFilePath)
-				for line in theFilePath:
-					file.write(line)
+				for writeline in theFilePath:
+					file.write(writeline)
 			theFilePath = []
 			line = ''.join(line)
 			file.write("漏洞数量为：" + line[44:-3] + "\r")
