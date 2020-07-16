@@ -58,6 +58,6 @@ def doExtract(filename,utilState):
 	if (outputName != null)
 		file = open(outputName + '.txt','w+') 
 	else
-		file = open('1.txt','w+')
+		file = open(filename + '.txt','w+')
 		
 	basics(file,filename,utilState)
