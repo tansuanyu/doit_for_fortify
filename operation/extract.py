@@ -55,6 +55,9 @@ def basics(file,filename,utilState):
 def doExtract(filename,utilState):
 	print('生成的文件名：')
 	outputName = input()
-	file = open(outputName + '.txt','w+') 
-
+	if (outputName != null)
+		file = open(outputName + '.txt','w+') 
+	else
+		file = open('1.txt','w+')
+		
 	basics(file,filename,utilState)
